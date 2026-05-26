@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GenZ Learn UI</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="page">
+    <div class="screen-labels">
+      <div>1. Splash Screen</div>
+      <div>2. Login / Sign Up</div>
+      <div>3. Home Page</div>
+      <div>4. Course Details</div>
+      <div>5. Profile Screen</div>
+    </div>
+
+    <div class="screens">
+      <!-- Screen 1 -->
+      <section class="phone splash">
+        <div class="statusbar">
+          <span>9:30</span>
+          <div class="status-icons"><i class="fa-solid fa-wifi"></i><i class="fa-solid fa-signal"></i><i class="fa-solid fa-battery-full"></i></div>
+        </div>
+        <div class="camera"></div>
+
+        <div class="splash-logo">
+          <div class="logo-circle">
+            <div class="logo-text">GL</div>
+            <div class="logo-sub">GENZ LEARN</div>
+          </div>
+        </div>
+
+        <h1 class="brand">genZ LEARN</h1>
+        <p class="tagline">Learn . grow . succeed</p>
+
+        <div class="dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+
+        <button class="gradient-btn">Get Started</button>
+        <div class="home-indicator"></div>
+      </section>
+
+      <!-- Screen 2 -->
+      <section class="phone login">
+        <div class="statusbar">
+          <span>9:30</span>
+          <div class="status-icons"><i class="fa-solid fa-wifi"></i><i class="fa-solid fa-signal"></i><i class="fa-solid fa-battery-full"></i></div>
+        </div>
+        <div class="camera"></div>
+
+        <div class="top-row"><i class="fa-solid fa-arrow-left"></i></div>
+
+        <h2 class="title">welcome back!</h2>
+        <p class="subtitle">Login to continue</p>
+
+        <label>Email</label>
+        <div class="input-wrap">
+          <input type="text" placeholder="Enter your email" />
+          <i class="fa-regular fa-envelope"></i>
+        </div>
+
+        <label>Password</label>
+        <div class="input-wrap">
+          <input type="password" placeholder="Enter your password" />
+          <i class="fa-regular fa-eye"></i>
+        </div>
+
+        <a href="#" class="link-right">Forget Password?</a>
+
+        <button class="primary-btn">Login</button>
+
+        <div class="divider"><span></span> or <span></span></div>
+
+        <button class="social-btn"><i class="fa-brands fa-google google"></i> continue with google</button>
+        <button class="social-btn"><i class="fa-brands fa-facebook facebook"></i> continue with facebook</button>
+
+        <p class="bottom-text">Don’t have an account? <a href="#">sign up</a></p>
+        <div class="home-indicator"></div>
+      </section>
+
+      <!-- Screen 3 -->
+      <section class="phone home">
+        <div class="statusbar">
+          <span>9:30</span>
+          <div class="status-icons"><i class="fa-solid fa-wifi"></i><i class="fa-solid fa-signal"></i><i class="fa-solid fa-battery-full"></i></div>
+        </div>
+        <div class="camera"></div>
+
+        <div class="header">
+          <i class="fa-solid fa-bars"></i>
+          <h2>Home</h2>
+          <i class="fa-solid fa-bell"></i>
+        </div>
+
+        <div class="search">
+          <input type="text" placeholder="search for courses..." />
+          <i class="fa-regular fa-magnifying-glass"></i>
+        </div>
+
+        <div class="section-head">
+          <span>catagories</span>
+          <a href="#">view all</a>
+        </div>
+
+        <div class="grid">
+          <div class="cat-card blue"><i class="fa-solid fa-display"></i><span>Technology</span></div>
+          <div class="cat-card pink"><i class="fa-solid fa-flask"></i><span>Science</span></div>
+          <div class="cat-card purple"><i class="fa-solid fa-calculator"></i><span>Mathematics</span></div>
+          <div class="cat-card violet"><i class="fa-solid fa-palette"></i><span>Art& design</span></div>
+        </div>
+
+        <div class="section-head mt">
+          <span>Featured courses</span>
+          <a href="#">view all</a>
+        </div>
+
+        <div class="course-row">
+          <div class="course-card">
+            <div class="course-logo ux">UX</div>
+            <div class="course-name">ui/ux design</div>
+            <div class="course-meta">Beginner <span>★4.5</span></div>
+          </div>
+          <div class="course-card">
+            <div class="course-logo java">Java</div>
+            <div class="course-name">java basics</div>
+            <div class="course-meta">Beginner <span>★4.5</span></div>
+          </div>
+        </div>
+
+        <nav class="bottom-nav">
+          <div class="nav-item active"><i class="fa-solid fa-house"></i><span>home</span></div>
+          <div class="nav-item"><i class="fa-regular fa-book-open"></i><span>my courses</span></div>
+          <div class="nav-item"><i class="fa-regular fa-star"></i><span>wishlist</span></div>
+          <div class="nav-item"><i class="fa-regular fa-user"></i><span>profile</span></div>
+        </nav>
+        <div class="home-indicator"></div>
+      </section>
+
+      <!-- Screen 4 -->
+      <section class="phone course">
+        <div class="statusbar">
+          <span>9:30</span>
+          <div class="status-icons"><i class="fa-solid fa-wifi"></i><i class="fa-solid fa-signal"></i><i class="fa-solid fa-battery-full"></i></div>
+        </div>
+        <div class="camera"></div>
+
+        <div class="top-row course-top">
+          <i class="fa-solid fa-arrow-left"></i>
+          <i class="fa-regular fa-bookmark"></i>
+        </div>
+
+        <div class="hero-box">
+          <div class="hero-text">UIUX</div>
+        </div>
+
+        <h3 class="course-title">UI&UX Design Fundamentals</h3>
+        <div class="course-info">
+          <span class="badge">Beginner</span>
+          <span class="rating">☆ 4.5 (128)</span>
+        </div>
+
+        <h4>About this course</h4>
+        <p class="course-desc">
+          learn the fundamentals of UI&UX Design and build real-world projects.This course covers everything you need to get started as a UI&UX designer
+        </p>
+
+        <hr />
+
+        <h4>what you’ll learn</h4>
+        <ul class="learn-list">
+          <li>introduction to UI&UX Design</li>
+          <li>wireframe &prototyping</li>
+          <li>user Research Basics</li>
+          <li>Design Tools Overview</li>
+        </ul>
+
+        <button class="primary-btn enroll">Enroll Now</button>
+        <div class="home-indicator"></div>
+      </section>
+
+      <!-- Screen 5 -->
+      <section class="phone profile">
+        <div class="statusbar">
+          <span>9:30</span>
+          <div class="status-icons"><i class="fa-solid fa-wifi"></i><i class="fa-solid fa-signal"></i><i class="fa-solid fa-battery-full"></i></div>
+        </div>
+        <div class="camera"></div>
+
+        <div class="header">
+          <i class="fa-solid fa-bars"></i>
+          <h2>Profile</h2>
+          <i class="fa-solid fa-gear"></i>
+        </div>
+
+        <div class="avatar"></div>
+        <h3 class="name">Jay Dev</h3>
+        <p class="email">jaydev@email.com</p>
+
+        <div class="section-head profile-head">
+          <span>Completed Courses</span>
+          <a href="#">view all</a>
+        </div>
+
+        <div class="completed-card">
+          <div class="mini-logo ux">UX</div>
+          <div>
+            <div class="completed-title">UI&UX Design Fundamentals</div>
+            <div class="completed-sub">completed</div>
+          </div>
+          <i class="fa-regular fa-circle-check"></i>
+        </div>
+
+        <div class="completed-card">
+          <div class="mini-logo java">Java</div>
+          <div>
+            <div class="completed-title">Java Basics</div>
+            <div class="completed-sub">completed</div>
+          </div>
+          <i class="fa-regular fa-circle-check"></i>
+        </div>
+
+        <div class="menu-list">
+          <div><span>🏅</span> My Certificates</div>
+          <div><span>⭐</span> wishlist</div>
+          <div><span>⚙️</span> settings</div>
+          <div><span>↪</span> Log out</div>
+        </div>
+
+        <nav class="bottom-nav">
+          <div class="nav-item"><i class="fa-regular fa-house"></i><span>home</span></div>
+          <div class="nav-item active"><i class="fa-solid fa-book-open"></i><span>my courses</span></div>
+          <div class="nav-item"><i class="fa-regular fa-star"></i><span>wishlist</span></div>
+          <div class="nav-item"><i class="fa-solid fa-user"></i><span>profile</span></div>
+        </nav>
+        <div class="home-indicator"></div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
